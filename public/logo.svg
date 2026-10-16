@@ -1,0 +1,24 @@
+<svg xmlns="http://www.svg.org/2000/svg" viewBox="0 0 500 200">
+  <!-- Wing -->
+  <g transform="translate(40, 20)">
+    <!-- Cyan feathers -->
+    <path d="M40,0 C20,40 10,80 10,120 C30,100 50,80 80,70 Z" fill="#00AEEF" />
+    <path d="M15,40 C5,70 0,100 5,130 C20,115 40,100 65,95 Z" fill="#00AEEF" />
+    <!-- Green feathers -->
+    <path d="M0,80 C-5,100 0,125 10,145 C25,135 45,120 70,115 Z" fill="#8CC63F" />
+    <path d="M10,120 C10,135 20,150 35,160 C45,150 60,140 80,135 Z" fill="#8CC63F" />
+    <!-- Orange feathers -->
+    <path d="M25,150 C35,160 50,170 65,175 C75,165 85,155 100,150 Z" fill="#F7931E" />
+    <path d="M50,170 C60,175 70,180 85,180 C90,170 100,165 110,160 Z" fill="#F7931E" />
+  </g>
+
+  <!-- Text -->
+  <text x="140" y="110" font-family="Arial, sans-serif" font-weight="900" font-size="65" fill="#1A1A1A" letter-spacing="-1">KAFIORY</text>
+  <text x="300" y="150" font-family="Arial, sans-serif" font-weight="300" font-size="45" fill="#1A1A1A" letter-spacing="1">TOURS</text>
+
+  <!-- Yellow Line -->
+  <line x1="60" y1="175" x2="480" y2="175" stroke="#FCEE21" stroke-width="4" />
+
+  <!-- RIF Text -->
+  <text x="390" y="165" font-family="Arial, sans-serif" font-weight="400" font-size="12" fill="#555">RIF: J-30882661-8</text>
+</svg>

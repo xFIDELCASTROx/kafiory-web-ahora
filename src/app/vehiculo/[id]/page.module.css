@@ -1,0 +1,352 @@
+.detailContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 1.5rem 80px;
+  min-height: 100vh;
+  background-color: var(--color-light);
+}
+
+/* ===== Not Found ===== */
+.notFound {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.notFoundIcon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.notFound h1 {
+  font-size: 2rem;
+  color: var(--color-dark);
+  margin-bottom: 10px;
+}
+
+.notFound p {
+  color: var(--color-gray);
+  margin-bottom: 30px;
+}
+
+.backBtn {
+  background: #002855;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: none;
+}
+
+.backBtn:hover {
+  background: #001a3a;
+}
+
+/* ===== Breadcrumb ===== */
+.breadcrumb {
+  margin-bottom: 24px;
+  font-size: 0.88rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.breadcrumbLink {
+  color: var(--color-primary);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.breadcrumbLink:hover {
+  color: #0095cc;
+}
+
+.breadcrumbSep {
+  color: var(--color-gray-light);
+  font-size: 1.1rem;
+}
+
+.breadcrumbCurrent {
+  color: var(--color-gray);
+  font-weight: 600;
+}
+
+/* ===== Hero Section ===== */
+.heroSection {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  display: flex;
+  margin-bottom: 40px;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.imageGallery {
+  flex: 1;
+  position: relative;
+  min-height: 450px;
+  background: #f0f2f5;
+}
+
+.typeBadge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: linear-gradient(135deg, #f37021, #ff9a44);
+  color: #fff;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 2;
+  box-shadow: 0 2px 10px rgba(243, 112, 33, 0.35);
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carInfo {
+  flex: 0 0 420px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.carName {
+  font-size: 2.2rem;
+  color: #002855;
+  margin-bottom: 8px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.carPrice {
+  font-size: 2.2rem;
+  color: var(--color-primary);
+  font-weight: 800;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--color-gray-light);
+}
+
+.priceUnit {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-gray);
+}
+
+.specsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.specItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #444;
+  font-size: 0.92rem;
+}
+
+.specItem strong {
+  color: var(--color-dark);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.specIcon {
+  font-size: 1.3rem;
+  background: rgba(0, 174, 239, 0.08);
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.description {
+  color: var(--color-gray);
+  line-height: 1.7;
+  margin-bottom: 28px;
+  flex: 1;
+  font-size: 0.95rem;
+}
+
+.bookBtnLink {
+  display: block;
+  margin-top: auto;
+}
+
+.bookBtn {
+  background: linear-gradient(135deg, #f37021, #ff9a44);
+  color: var(--color-white);
+  padding: 16px;
+  border-radius: var(--radius-md);
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.bookBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(243, 112, 33, 0.35);
+}
+
+/* ===== Features Section ===== */
+.sectionTitle {
+  font-size: 1.6rem;
+  color: #002855;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.featuresSection {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  margin-bottom: 30px;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  background: #f8fafb;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.featureItem:hover {
+  background: #eef6fc;
+}
+
+.featureCheck {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, #00AEEF, #0095cc);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+/* ===== Policies Section ===== */
+.policiesSection {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  margin-bottom: 30px;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.policiesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.policyCard {
+  padding: 24px;
+  background: #fafbfc;
+  border-radius: 12px;
+  border: 1px solid #eef0f3;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.policyCard:hover {
+  border-color: rgba(0, 174, 239, 0.3);
+  transform: translateY(-2px);
+}
+
+.policyIcon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.policyCard h4 {
+  font-size: 1.1rem;
+  color: var(--color-dark);
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.policyCard p {
+  color: var(--color-gray);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .heroSection {
+    flex-direction: column;
+  }
+
+  .imageGallery {
+    min-height: 280px;
+  }
+
+  .carInfo {
+    flex: none;
+    padding: 28px;
+  }
+
+  .carName {
+    font-size: 1.8rem;
+  }
+
+  .carPrice {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .detailContainer {
+    padding-top: 20px;
+  }
+
+  .specsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .policiesGrid {
+    grid-template-columns: 1fr;
+  }
+}
